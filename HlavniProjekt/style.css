@@ -1,0 +1,96 @@
+body
+{
+    font-family: JetBrains Mono, monospace;
+    min-height: 10vh;
+    margin: 50px;
+    background: radial-gradient(circle, #8d6a46, #171717);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 85px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(255 255 255 / 0.13);
+    border: 10px solid rgb(255 255 255 / 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 10px 0 60px 5px rgb(0 0 0 / 0.4)
+}
+
+nav a{
+    /*display: inline-block;*/
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgb(0 0 0 / 0.14);
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(255 255 255 / 0.27);
+}
+
+main{
+    margin-top: 100px;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+section{
+    background-color: rgb(255 255 255 / 0.13);
+    border: 10px solid rgb(255 255 255 / 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 10px 0 60px 5px rgb(0 0 0 / 0.4)
+}
+
+section:hover{
+    margin-top: 110px;
+    margin-left: 60px;
+    background-color: rgb(255 255 255 / 0.2);
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    border-radius: 12px;
+}
+
+figure{
+    margin: 0;
+    padding: 10px;
+    background-color: #eaf3f9;
+    border-radius: 12px;
+}
+
+figcaption{
+    margin-top: 88px;
+    color: #ffffff;
+    text-align: center;
+}
